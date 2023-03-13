@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: fixed;
+    margin-left: 45%;
+    width: 270px;
+}
+#principal{
+    height: 50vh;
+    width: 235px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 20px;
+    position: fixed;
+    margin-right: 440px;    
+}
+.paragrafo1{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.of{
+    font-size: 12px;
+}
+.para{
+    padding-top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+}
+#principal p{
+    color: hsl(241, 100%, 89%);
+}
+.div-principal{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsl(235, 83%, 57%));
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-left: 55px;
+}
+.gr{
+    color: white;
+}
+.indice{
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 18px;
+}
+#secundaria{
+    background: white;
+    width: 260px;
+    height: 50vh;
+    box-shadow: 2px 8px 8px  hsla(166, 36%, 56%, 0.205);
+    border-radius: 20px;
+}
+.sum{
+    font-size: 18px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+}
+.elemento1, .elemento2, .elemento3, .elemento4{
+   display: flex;
+   margin-top: 20px;
+   margin-left: 35px; 
+}
+.elemento1{   
+    background: hsla(10, 93%, 54%, 0.171);
+    border-radius: 5px;
+    padding: 5px;
+}
+.elemento2{   
+    background: hsla(39, 94%, 49%, 0.144);
+    border-radius: 5px;
+    padding: 5px;
+}
+.elemento3{   
+    background: hsla(166, 36%, 56%, 0.205);
+    border-radius: 5px;
+    padding: 5px;
+}
+.elemento4{   
+    background: hsla(234, 58%, 55%, 0.171);
+    border-radius: 5px;
+    padding: 5px;
+}
+.re{
+    color: hsl(0, 100%, 67%);
+}
+.me{
+   color: hsl(39, 100%, 56%);
+}
+.ve{
+    color: hsl(166, 100%, 37%);
+}
+.vi{
+    color: hsl(234, 85%, 45%);
+}
+.icon1, .icon2, .icon3, .icon4{
+    padding: 0px 20px 0px 0px;
+}
+.sum-icon{
+    padding-left: 40px;
+}
+.sum-icon-1, .sum-icon-2{
+    padding-left: 55px;
+}
+button{
+    color: white;
+    width: 180px;
+    height: 35px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsl(235, 83%, 57%));
+    border: none;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    padding-top: 97vh;
+    text-align: center;
+}
+@media screen and (max-width: 375px) {
+    main {
+      display: block;
+      margin-left: 20%;
+    }
+    #principal{
+        height: auto;
+    }
+    #secundaria{
+        margin-top: 29vh;
+        height: 325px;
+        padding-top: 20px;
+        width: 235px;
+        box-shadow: 1px 1px 1px 3px  hsla(166, 36%, 56%, 0.205);
+        border-radius: 20px;
+    }
+    .elemento1,.elemento2,.elemento3,.elemento4{
+        margin-left: 10px;
+    }
+    .sum{
+        margin-left: -25px;
+    }
+    button{
+        margin-left: -1px;
+    }
+    footer{
+        padding-top: 98vh;
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    main {
+      display: block;
+      margin-right: -10%;
+    }
+    #principal{
+        height: auto;
+    }
+    #secundaria{
+        margin-top: 29vh;
+        height: 375px;
+        padding-top: 80px;
+        width: 235px;
+        box-shadow: 1px 1px 1px 3px  hsla(166, 36%, 56%, 0.205);
+        border-radius: 20px;
+    }
+    .elemento1,.elemento2,.elemento3,.elemento4{
+        margin-left: 10px;
+    }
+    .sum{
+        margin-left: -25px;
+    }
+    button{
+        margin-left: -1px;
+    }
+    footer{
+        padding-top: 100vh;
+        text-align: center;
+        position: fixed;
+    }
+  }
